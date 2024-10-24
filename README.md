@@ -19,8 +19,8 @@ The problem I am facing is:
 1. When we click continue it just loops back and displays the pop-up again. Even though the custom field on the sale is set
 2. The workflow times out the first time it is run and the second time it works
 
-Below the code block 
 */
+
 export default defineComponent({
   async run({ steps, $ }) {
     const values = steps.get_values_in_range.$return_value;
