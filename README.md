@@ -5,6 +5,9 @@ Requirements:
 2. Create Custom Field in LSX: entity "sale", type "string", title/api-name "loyalty-value-options"
 3. Create a Google sheet with sales data
 4. Add Get_values_in_range step after the trigger and then select your sheet in there as in the screenshot
+![Screenshot 2024-10-25 at 9 32 12 AM](https://github.com/user-attachments/assets/6de61db3-bad4-44c0-abc0-38b3371500d6)
+
+
 
 Use:
 1. Search for all historical sales for a customer
